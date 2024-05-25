@@ -79,7 +79,7 @@ const data = {
     github: chalk.gray("https://github.com/") + chalk.green("educationalgamer"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("anshu-nishad"),
     web: chalk.cyan("https://anshu-dev-ashy.vercel.app"),
-    npx: chalk.red("npx") + " " + chalk.white("anshu"),
+    npx: chalk.red("npx") + " " + chalk.white("anshunishad"),
 
     labelWork: chalk.white.bold("       Work:"),
     labelTwitter: chalk.white.bold("    Twitter:"),

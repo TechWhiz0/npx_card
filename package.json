@@ -4,7 +4,7 @@
   "description": "A personal card for Anshu Nishad",
   "main": "card.js",
   "bin": {
-    "anshunishad": "card.js"
+    "anshunishad": "./card.js"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "node card.js",
-    "pub": "npm version major & npm publish"
+    "pub": "npm version major && npm publish"
   },
   "dependencies": {
     "boxen": "^4.2.0",
