@@ -1,6 +1,6 @@
 {
   "name": "anshunishad",
-  "version": "5.0.0",
+  "version": "5.0.2",
   "description": "A personal card for Anshu Nishad",
   "main": "card.js",
   "bin": {
