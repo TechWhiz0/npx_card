@@ -75,7 +75,7 @@ const data = {
     work: `${chalk.white("Full Stack Intern at")} ${chalk
         .hex("#2b82b2")
         .bold("Vistaran Techtronix")}`, 
-    twitter: chalk.gray("https://twitter.com/") + chalk.cyan("AnshuNi30370666"),
+    twitter: chalk.gray("https://twitter.com/") + chalk.cyan("techwhiz0"),
     github: chalk.gray("https://github.com/") + chalk.green("educationalgamer"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("anshu-nishad"),
     web: chalk.cyan("https://anshu-dev-ashy.vercel.app"),
