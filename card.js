@@ -26,7 +26,7 @@ const actions = {
             text: 'Downloading Resume',
             spinner: cliSpinners.material,
         }).start();
-        let pipe = request('https://drive.google.com/uc?export=download&id=1Z3azwX5CQZOgiM5P4PpymulGWL176eQb').pipe(fs.createWriteStream('./anshu-resume.pdf'));
+        let pipe = request('https://drive.google.com/file/d/1pfsem4Kl7Jt2zVP0SyeluSVdv3_9pmag/view?usp=sharing').pipe(fs.createWriteStream('./anshu-resume.pdf'));
         pipe.on("finish", function () {
             let downloadPath = path.join(process.cwd(), 'anshu-resume.pdf')
             console.log(`\nResume Downloaded at ${downloadPath} \n`);
@@ -76,7 +76,7 @@ const data = {
         .hex("#2b82b2")
         .bold("Vistaran Techtronix")}`, 
     twitter: chalk.gray("https://twitter.com/") + chalk.cyan("techwhiz0"),
-    github: chalk.gray("https://github.com/") + chalk.green("educationalgamer"),
+    github: chalk.gray("https://github.com/") + chalk.green("TechWhiz0"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("anshu-nishad"),
     web: chalk.cyan("https://anshu-dev-ashy.vercel.app"),
     npx: chalk.red("npx") + " " + chalk.white("anshunishad"),
