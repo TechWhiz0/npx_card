@@ -26,7 +26,7 @@ const actions = {
             text: 'Downloading Resume',
             spinner: cliSpinners.material,
         }).start();
-        let pipe = request('https://drive.google.com/file/d/1pfsem4Kl7Jt2zVP0SyeluSVdv3_9pmag/view?usp=sharing').pipe(fs.createWriteStream('./anshu-resume.pdf'));
+        let pipe = request('https://drive.google.com/file/d/1iBV8BN8MaoBNUjm8dEI24XTRjgHdXHso/view?usp=sharing').pipe(fs.createWriteStream('./anshu-resume.pdf'));
         pipe.on("finish", function () {
             let downloadPath = path.join(process.cwd(), 'anshu-resume.pdf')
             console.log(`\nResume Downloaded at ${downloadPath} \n`);
